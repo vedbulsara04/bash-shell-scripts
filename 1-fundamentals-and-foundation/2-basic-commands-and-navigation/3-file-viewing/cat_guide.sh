@@ -24,3 +24,7 @@ EOF
 # concat multiple files into one
 
 cat header.txt body.txt footer.txt > essay.txt 
+
+# combine multiple config fragments
+
+cat /etc/app/config.d/*.conf > /etc/app/combined.conf
