@@ -26,3 +26,9 @@ grep -n "exception" app.log
 # show file names only (which files contain pattern)
 
 grep -l "database error" *.log
+
+# combine commands
+
+ps aux | grep nginx
+
+docker ps | grep "running"
