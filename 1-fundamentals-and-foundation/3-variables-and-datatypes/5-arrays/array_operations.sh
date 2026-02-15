@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Adding elements
 fruits=("Apple" "Banana")
@@ -20,3 +20,4 @@ echo ${numbers[@]:5:8}
 
 # Replacing elements
 fruits[0]="Mango"
+echo ${fruits[@]}
