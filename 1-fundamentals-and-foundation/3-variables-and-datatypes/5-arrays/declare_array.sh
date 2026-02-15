@@ -1,4 +1,6 @@
-# Method 1: Direct assignment
+#!/bin/zsh
+
+# Method 1: Direct Assignment
 fruits[0]="Apple"
 fruits[1]="Banana"
 fruits[2]="Orange"
@@ -7,4 +9,4 @@ fruits[2]="Orange"
 fruits=("Apple" "Banana" "Orange")
 
 # Method 3: Using declare
-declare -a colors=("Red" "Green" "Blue")
+declare -a colors=("Red" "Green" "Orange")
