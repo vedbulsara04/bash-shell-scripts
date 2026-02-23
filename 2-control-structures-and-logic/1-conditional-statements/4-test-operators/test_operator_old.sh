@@ -1,4 +1,5 @@
 #!/bin/bash
+# [] - POSIX compatible, older syntax
 
 name="John"
 
