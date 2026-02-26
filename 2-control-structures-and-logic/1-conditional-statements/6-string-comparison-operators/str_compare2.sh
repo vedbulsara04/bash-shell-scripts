@@ -22,16 +22,15 @@ name2="john"
 
 # convert to lowercase for comparison
 
+if [ "${name1,,}" = "${name2,,}" ]	# ',,' = this is the case modification operator that converts all characters to lowercase
+then
+	echo "Names match (case-insensitive)"
+fi
 
+# string length comparison
 
-
-
-
-
-
-
-
-
-
-
-
+password="abc123"
+if [ ${#password} -lt 8 ]
+then
+	echo "Passwordd must be at least 8 characters"
+fi
